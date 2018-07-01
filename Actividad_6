@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void main()
+{
+	printf("\n Tenemos de estos postres. \n\t1- Pudin \n\t2- Tarta \n\t3- Pay de limon \n\t4- Helado \n\t5- Carlota");
+	printf("\n Que te gusta: ");
+	int postres;
+	scanf("%i", &postres);
+	switch (postres)
+	{
+	case 1 : printf("\n Compro un Pudin");
+	        break;
+	        
+	case 2 : printf("\n Compro una Tarta");
+			break;
+	
+	case 3 : printf("\n Compro un Pay de limon");
+			break;
+	
+	case 4 : printf("\n Compro un Helado");
+			break;
+	
+	case 5 : printf("\n%c Compro una Carlota");
+			break;
+	default: printf("\n Lo sentimos no tenemos Gracias :)");			
+	}
+}
